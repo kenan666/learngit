@@ -1,4 +1,5 @@
 import tensorflow as tf
+#  TensorFlow  实现线性回归
 
 tf.set_random_seed(777)  # for reproducibility
 

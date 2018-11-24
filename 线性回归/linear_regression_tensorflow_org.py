@@ -8,7 +8,7 @@ b = tf.Variable([-.3],tf.float32)
 x = tf.placeholder(tf.float32)
 y = tf.placeholder(tf.float32)
 
-linear_model = x * W + b
+linear_model = x * W + b  
 
 #  定义  cost/ loss 函数
 loss = tf.reduce_sum (tf.square(linear_model - y))

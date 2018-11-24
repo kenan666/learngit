@@ -5,6 +5,7 @@ tf.set_random_seed(777)
 # 尝试查找W和b的值来计算y_data = x_data * W + b
 # 我们知道W应为1，b应为0
 # 但让TensorFlow弄清楚了
+
 W = tf.Variable(tf.random_normal([1]), name='weight')
 b = tf.Variable(tf.random_normal([1]), name='bias')
 
