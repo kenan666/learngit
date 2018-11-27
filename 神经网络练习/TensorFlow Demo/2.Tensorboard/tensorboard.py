@@ -1,5 +1,3 @@
-# -*- coding: UTF-8 -*-
-
 # 引入tensorflow
 import tensorflow as tf
 
