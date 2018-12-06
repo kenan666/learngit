@@ -1,9 +1,3 @@
-# -*- coding: UTF-8 -*-
-
-"""
-此为样例代码，之后第三个案例录制时会完全重制代码，跟这个代码基本没什么关系
-"""
-
 import numpy as np
 import os
 import shutil

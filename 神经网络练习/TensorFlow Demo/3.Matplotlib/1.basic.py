@@ -1,5 +1,3 @@
-# -*- coding: UTF-8 -*-
-
 # 引入 Matplotlib 的分模块 pyplot
 import matplotlib.pyplot as plt
 # 引入 numpy

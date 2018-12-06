@@ -1,4 +1,3 @@
-# -*- coding: UTF-8 -*-
 
 # 引入 TensorFlow 库
 import tensorflow as tf
@@ -10,7 +9,7 @@ hw = tf.constant("Hello World! I love TensorFlow!")
 sess = tf.Session()
 
 # 运行 Graph（计算图）
-print sess.run(hw)
+print (sess.run(hw))
 
 # 关闭 Session（会话）
 sess.close()

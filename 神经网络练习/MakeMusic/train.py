@@ -12,7 +12,7 @@ from network import *
 def train():
     notes = get_notes()
 
-    # 得到所有不重复（因为用了set）的音调数目
+    # 得到所有不重复的音调数目
     num_pitch = len(set(notes))
 
     network_input, network_output = prepare_sequences(notes, num_pitch)
