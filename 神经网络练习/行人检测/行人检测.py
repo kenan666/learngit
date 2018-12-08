@@ -1,3 +1,4 @@
+#行人检测  简单
 import cv2
 from imutils.object_detection import non_max_suppression
 import numpy as np
